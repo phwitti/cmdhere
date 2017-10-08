@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{ebd3e173-3b97-438e-99b7-072e187d6a36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\shared\io.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugins\explorer\com_exception.cpp" />
+    <ClCompile Include="..\..\..\src\plugins\explorer\com.cpp" />
+    <ClCompile Include="..\..\..\src\plugins\explorer\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\shared\io.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\shared\tstring.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\shared\windows.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugins\explorer\clsid.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\com_exception.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\com.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\folder_view.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\id_list.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\main.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\persist_folder_2.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\service_provider.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\shell_browser.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\shell_windows.hpp" />
+    <ClInclude Include="..\..\..\src\plugins\explorer\web_browser_app.hpp" />
+    <ClInclude Include="..\..\..\src\shared\tolower.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
