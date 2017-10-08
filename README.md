@@ -1,6 +1,8 @@
 # cmdhere
 Small task-bar application to open the cmd context-based in the current directory (by default works for currently opened explorer-directory -- can be extended with plugins).
 
+![Image of Yaktocat](https://phwitti.com/files/cmdhere-preview.gif)
+
 #(Un)License
 
 This is free and unencumbered software released into the public domain.
